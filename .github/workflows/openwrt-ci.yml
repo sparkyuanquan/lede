@@ -64,7 +64,7 @@ jobs:
 
       - name: Generate configuration file
         run: make defconfig
-         run: |
+        run: |
           rm -f ./.config*
           touch ./.config
           #
